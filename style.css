@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    height: 60px;
+    background-color: #126344;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px white solid;
+}
+.logo{
+    height: 50px;
+    width: 99%;
+    background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2019/01/Amazon-Logo.jpg?quality=82&strip=all");
+    background-size: cover;
+}
+/* address-box */
+.adr-logo{
+    display: flex;
+    align-items: center;
+}
+#text1{
+    color: #cccccc;
+    font-size: 11.5px;
+    margin-left: 1rem;
+}
+#text2{
+    font-size: 14px;
+    margin-left: 4px;
+}
+/* Search-box */
+.nav-search{
+    display: flex;
+    background-color: rgb(195, 53, 195);
+    width: 640px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    /* border: 2px solid rgb(42, 18, 26); */
+    box-shadow: 1px 1px 2px black,-1px -1px 2px black;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.select-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.icon{
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    /* background-color: rgb(246, 132, 21); */
+    background-color:rgb(188, 36, 127);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #c8e2cc;
+}
+/* Signin-box */
+.nav-signin{
+    text-align: start;
+    font-weight: 700;
+}
+#text3{
+    font-size: 0.7rem;
+    margin-left:3.5px;
+}
+#font{
+    font-size: 0.7rem;
+}
+.nav-orders{
+    font-weight: 700;
+}
+/* Cart-box */
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* Panel-bar */
+.panel{
+    height: 40px;
+    /* background-color: #202746; */
+    background-color: #0d3033;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .panel-all{
+    font-size: 0.7rem;
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:60px;
+} */
+/* .panel-ops{
+    font-size: 0.7rem;
+    font-weight: 650;
+    display: flex;
+    justify-content:center; 
+    gap: 1rem;
+    height: 30px;
+    align-items: center;
+    width: 70%; */
+/* } */
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-ops p{
+    border: 2px solid transparent;
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops p:hover{
+    border:1px solid white;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 650;
+    /* width: 20%; */
+}
+/* section */
+.box-sec{
+    height: 400px;
+    background-image: url("/asserts/img/box2.jpg");
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sec-msg{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 65px;
+}
+.sec-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+.sec-msg a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+/* shoping-sec */
+
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 10px; */
+    row-gap:20px;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    background: linear-gradient(90deg, #c8e2cc 0%, #dab78b 100%);
+}
+.box{
+    width: 23%;
+    height: 20rem;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+    padding: 20px 0px 15px;
+}
+.box2 .img1 {
+    background-image: url("box2_img.jpg");
+    height: 15rem;
+    width: 90%;
+    /* margin-left: 17px; */
+}
+.box2 .img2{
+    background-image: url("box3_img.jpg");
+    height: 15rem;
+    width: 90%;
+}
+.box2 .img3{
+    background-image: url("box4_img.jpg");
+    height: 15rem;
+    width: 92%;
+}
+.box2 .img4{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Gaming_zone_1x._SY304_CB540253513_.jpg");
+    height: 15rem;
+    width: 92%;
+}
+.box2 .img1 , .img2 , .img3 , .img4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box_content{
+    margin:0px 10px 15px 30px;
+}
+.box_content p{
+    font-size: small;
+    color: #007185;
+}
+.box_content p:hover{
+    text-decoration: underline;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+.grid{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-rows: repeat(2,100px);
+    grid-template-columns: repeat(2,220px);
+    align-items: center;
+    gap:none;
+}
+.box1 .grid .img{
+    background-color: #dab78b;
+    border: 1px solid transparent;
+    width: 55%;
+    height: 92%;
+    margin: 50px 0px 1px 2px;
+    /* padding: auto; */
+    row-gap: 10px;
+}
+.grid .img-1 p ,.img p{
+    margin-top: 75%;
+    background-color: white;
+    font-size:8px;
+}
+.img-1{
+    background-color: #dab78b;
+    border: 1px solid transparent;
+    width: 50%;
+    height: 92%;
+    margin: 50px 5px 1px 0px;
+    /* padding: auto; */
+}
+.content{
+    margin-left: 12px;
+    margin-right: 10px;
+    width: 99%;
+    height: 90%;
+    align-items: center;
+}
+.content h2{
+    font-size: 1.3rem;
+}
+.content #para{
+    font-size: small;
+    color: #007185;
+    margin-top: 2.7rem;
+}
+.content #para:hover{
+    text-decoration: underline;
+    color: rgb(120, 90, 13);
+    cursor: pointer;
+}
+/* footer */
+
+footer{
+    margin-top: 20px;
+}
+.ftrbar{
+    /* width: 100%; */
+    height: 50px;
+    background-color: #37475a;
+    color: #c8e2cc;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.ftr-panel{
+    height: 20rem;
+    background-color: #222f3d;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.ftr-panel ul{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1.1fr);
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+}
+.ftr-panel ul li p{
+    font-size: 0.85rem;
+    margin-top: 12px;
+    color: #dddddd;
+}
+.ftr-logo{
+    background-color: #222f3d;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #e3d4d4;
+}
+.logo1{
+    height: 50px;
+    width: 110px;
+    background-image: url("https://9to5mac.com/wp-content/uploads/sites/6/2019/01/Amazon-Logo.jpg?quality=82&strip=all");
+    background-size: cover;
+}
+/* .bt1{
+    background-color: #222f3d;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+} */
+.ftr-panel2{
+    background-color: #111b26;
+    color:white;
+    height: 70px;
+    margin-top: 5px;
+}
+.ftr-panel2 .pages ,.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+.pages a{
+    text-decoration: none;
+    color: #cccccc;
+}
